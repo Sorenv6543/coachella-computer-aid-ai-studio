@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { X, HeartHandshake, CheckCircle2, Phone, Calendar, User, Mail, MapPin } from 'lucide-react';
 import { Language, translations } from '../data/translations';
 
@@ -25,6 +25,12 @@ export const HelpRequestModal: React.FC<HelpRequestModalProps> = ({
   const [topic, setTopic] = useState(preselectedTopic || "Smartphone / Tablet");
   const [notes, setNotes] = useState("");
   const [isSuccess, setIsSuccess] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      setTopic(preselectedTopic || "Smartphone / Tablet");
+    }
+  }, [isOpen, preselectedTopic]);
 
   if (!isOpen) return null;
 

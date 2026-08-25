@@ -151,9 +151,21 @@ export const translations = {
       ]
     },
     payWhatYouCan: {
-      tag: "Community-Supported Model",
-      headline: "Everyone Deserves Help — Pay What You Can",
-      subtitle: "High quality tech education should never be a luxury. Here is how our sliding scale works:",
+      tag: "We're Here to Help",
+      headline: "How Can We Help You Today?",
+      subtitle: "Tell us what you need — cost is never a barrier. Pay what you can, or nothing at all.",
+      needsOptions: [
+        "Phone or Tablet",
+        "Computer or Laptop",
+        "TV or Streaming",
+        "Internet / Wi-Fi",
+        "Online Safety & Scams",
+        "Email & Accounts",
+        "Helping a Family Member",
+        "Something Else"
+      ],
+      needsFootnote: "The more we hear, the better we can plan free workshops on exactly what the community needs.",
+      payHeadline: "Want to Chip In? (Totally Optional)",
       sliderLabel: "Choose your contribution per 1-hour session:",
       freeBadge: "100% Free · No Questions Asked",
       note: "If you cannot contribute, your session is 100% free with the exact same dedicated care. If you can contribute, you help sponsor a neighbor in need!",
@@ -447,9 +459,21 @@ export const translations = {
       ]
     },
     payWhatYouCan: {
-      tag: "Modelo de Apoyo Solidario",
-      headline: "Todos Merecen Ayuda — Paga lo que Puedas",
-      subtitle: "La educación tecnológica nunca debe ser un lujo. Así funciona nuestro modelo solidario:",
+      tag: "Estamos Aquí para Ayudar",
+      headline: "¿Cómo Podemos Ayudarle Hoy?",
+      subtitle: "Cuéntenos qué necesita — el costo nunca es un obstáculo. Pague lo que pueda, o nada en absoluto.",
+      needsOptions: [
+        "Teléfono o Tableta",
+        "Computadora o Laptop",
+        "TV o Streaming",
+        "Internet / Wi-Fi",
+        "Seguridad en Línea y Estafas",
+        "Correo y Cuentas",
+        "Ayudar a un Familiar",
+        "Algo Más"
+      ],
+      needsFootnote: "Mientras más sepamos, mejor podremos planear talleres gratuitos sobre justo lo que la comunidad necesita.",
+      payHeadline: "¿Quiere Aportar? (Totalmente Opcional)",
       sliderLabel: "Elija su contribución voluntaria por sesión de 1 hora:",
       freeBadge: "100% Gratuito · Sin Preguntas Incómodas",
       note: "Si no puede pagar, su sesión es 100% gratuita con la misma atención y dedicación. Si puede aportar, ¡ayuda a financiar a un vecino!",
